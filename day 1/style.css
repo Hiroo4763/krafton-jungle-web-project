@@ -1,0 +1,25 @@
+*{
+       font-family: "Oswald", sans-serif;
+       font-optical-sizing: auto;
+       font-weight: weight;
+       font-style: normal;
+    }
+      .wrap {
+        margin: auto;
+        width: 300px;
+      }
+
+      .mytitle {
+        width: 300px;
+        height: 200px;
+        background-image: url("https://www.ancient-origins.net/sites/default/files/field/image/Agesilaus-II-cover.jpg");
+        background-position: center;
+        background-size: cover;
+
+        border-radius: 10px;
+        padding-top: 40px;
+
+        color: white;
+        text-align: center;
+      }
+    
