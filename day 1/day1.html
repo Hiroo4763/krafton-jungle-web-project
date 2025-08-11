@@ -12,16 +12,18 @@
 
     <style>
         /* 여기에 CSS를 작성하거나, 원하는 요소에 style 속성을 지정하여 스타일을 적용해 주세요. */
-        body { color:#1d1d1f; }
+        body {
+            color: #1d1d1f;
+        }
+
+        /*카드 링크 색*/
         .card-link {
             color: #ff007f;
         }
 
-        .card-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1rem;
-            /* 카드 사이 간격 */
+        /*카드 제목 두껍게*/
+        .card-title {
+            font-weight: bold;
         }
     </style>
 </head>
@@ -30,7 +32,7 @@
     <div class="container">
         <div class="jumbotron">
             <h1 class="display-4">
-                <!-- 여기에 팀 이름을 적어주세요. (예: 8팀) --> 7팀
+                <!-- 여기에 팀 이름을 적어주세요. (예: 8팀) --><b> 7팀 </b>
             </h1>
             <p class="lead">우리 팀을 소개합니다.</p>
             <hr class="my-4">
@@ -39,9 +41,9 @@
         <div class="card-columns">
             <div class="card" style="width: 22rem;">
                 <div class="card-body">
-                    <h5 class="card-title">이동욱<span class="badge badge-primary">미디어공학과</span></h5>
+                    <h5 class="card-title">이동욱&nbsp;<span class="badge badge-primary">미디어공학과</span></h5>
                     <p class="card-text">
-                    <div class = "ml-3">
+                    <div class="ml-3">
                         <li>취미: 게임</li>
                         <li>MBTI: INFJ</li>
                         <li>좋아하는 음식: 불닭볶음면</li>
@@ -53,9 +55,9 @@
             <!-- 이윤종 카드 -->
             <div class="card" style="width: 22rem;">
                 <div class="card-body">
-                    <h5 class="card-title">이윤종<span class="badge badge-primary">컴퓨터공학부</span></h5>
+                    <h5 class="card-title">이윤종&nbsp;<span class="badge badge-primary">컴퓨터공학부</span></h5>
                     <p class="card-text">
-                    <div class = "ml-3">
+                    <div class="ml-3">
                         <li>취미: 웹툰</li>
                         <li>MBTI: ISTP</li>
                         <li>좋아하는 음식: 초밥</li>
@@ -67,9 +69,9 @@
             <!-- 변상준 카드 -->
             <div class="card" style="width: 22rem;">
                 <div class="card-body">
-                    <h5 class="card-title">변상준<span class="badge badge-primary">컴퓨터공학과</span></h5>
+                    <h5 class="card-title">변상준&nbsp;<span class="badge badge-primary">컴퓨터공학과</span></h5>
                     <p class="card-text">
-                    <div class = "ml-3">
+                    <div class="ml-3">
                         <li>취미: 음악듣기</li>
                         <li>MBTI: INTP</li>
                         <li>좋아하는 음식: 피자</li>
