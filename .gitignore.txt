@@ -1,9 +1,15 @@
-node_modules/  
+# ===============================
+# Node.js
+# ===============================
+# 모든 node_modules 폴더 무시 (루트 + 하위 폴더)
 
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode
+node_modules/
+**/node_modules/
+src/day_2/pubg_apikey.txt
 
-### VisualStudioCode ###
+# ===============================
+# Visual Studio Code
+# ===============================
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -13,13 +19,17 @@ node_modules/
 
 # Local History for Visual Studio Code
 .history/
+.ionide/
 
 # Built Visual Studio Code Extensions
 *.vsix
 
-### VisualStudioCode Patch ###
-# Ignore all local history of files
-.history
-.ionide
+# ===============================
+# OS / 환경별
+# ===============================
+# macOS
+.DS_Store
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
+# Windows
+Thumbs.db
+ehthumbs.db
