@@ -22,6 +22,17 @@
     <script>
       function q1() {
         // 여기에 코드를 입력하세요
+        $.ajax({
+                type: "GET",
+                url: "https://emojihub.yurace.pro/api/all/group/food-fruit",
+                data: {},
+                success: function (response) {
+                    let imgurl = response["message"][0];
+                    $("#img-dog-0").attr("src", imgurl);
+                    let imgur2 = response["message"][1];
+                    $("#img-dog-1").attr("src", imgur2);
+                },
+            });
       }
     </script>
   </head>
