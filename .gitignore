@@ -3,6 +3,7 @@
 # ===============================
 
 /node_modules
+day_3/mongoDB.txt
 
 # ===============================
 # Visual Studio Code
@@ -104,6 +105,8 @@ web_modules/
 .env
 .env.*
 !.env.example
+.venv/
+riotapi.txt
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
