@@ -107,6 +107,8 @@ web_modules/
 !.env.example
 .venv/
 riotapi.txt
+awsinfo.txt
+
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
